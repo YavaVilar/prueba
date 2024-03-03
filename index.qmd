@@ -1,0 +1,8 @@
+---
+format:
+   html:
+    title-block-banner: true
+editor: visual
+---
+
+$$ %x $$

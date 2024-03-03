@@ -1,0 +1,70 @@
+project: 
+  type: book
+  execute-dir: project
+
+book:
+  title: "Matematica 1"
+  author: "Alejandro Cardiles"
+  date: "today" # date options can be found here:
+  date-format: iso 
+  chapters:
+    - index.qmd
+    - 01-chapter.qmd
+
+#=============#
+#   format    #
+#=============#
+format:
+#-----------#
+# pdf
+  pdf:
+    number-sections: true
+    number-depth: 0
+    # table of contest
+    toc: true
+    # layout
+    margin-left: 30mm
+    margin-right: 30mm
+    papersize: a4
+    linestretch: 1.2
+    fontsize: 12pt
+    urlcolor: blue
+    # fig caption
+    fig_caption: TRUE
+    cap-location: "top"
+    # latex optios
+    include-in-header: 
+     - text: |
+         \usepackage{mdframed}
+         \usepackage{booktabs}
+         \usepackage{longtable}
+         \usepackage{array}
+         \usepackage{multirow}
+         \usepackage{wrapfig}
+         \usepackage{float}
+         \floatplacement{figure}{H}
+
+       
+#-----------#
+# html
+  html:
+  
+    title-block-banner: none
+    theme: Slate
+    toc: true # table of content
+    toc_float: true 
+    number-sections: true
+    number-depth: 0
+    # show code menu
+    code-tools:  
+      source: false # don´t show sourse of wepage
+      toggle: true # show source of chunk
+    code-fold: true # to hide all code by defaul
+
+    
+    
+#=============#
+#      #
+#=============#    
+execute:
+  freeze: auto # only files that change will be re render

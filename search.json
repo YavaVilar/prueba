@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matematica 1",
+    "section": "",
+    "text": "\\[ %x \\]"
+  },
+  {
+    "objectID": "01-chapter.html",
+    "href": "01-chapter.html",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "Los Números Reales\nNúmeros enteros(Z): Los números irracionales son aquellos números que no se pueden expresar como una fracción exacta de dos números enteros.\n\\[-1,0,1…\\]\nNúmeros Racionales(Q): Los números racionales son aquellos números que se pueden expresar como una fracción exacta de dos números enteros. El numero entero de arriba se denomina numerador y el de abajo denominador.\n\\[\\frac{1\\to numerador}{2\\to Denominador}...\\]\nNúmeros irracionales: Los números irracionales son aquellos números que no se pueden expresar como una fracción exacta de dos números enteros.\n\\[\\sqrt{2}...\\]\nTodos estos son numero reales y se denotan con la letra (R) y pueden ser expresados en una recta numérica.\n\n\nEl plano cartesiano\nEl plano cartesiano está formado por dos rectas numéricas perpendiculares, una horizontal y otra vertical que se cortan en un punto. La recta horizontal es llamada eje de las abscisas o de las equis (x), y la vertical, eje de las ordenadas o de las yes, (y); el punto donde se cortan recibe el nombre de origen.\n\nEn este plano se puede trazar una linea entre dos o mas puntos. Esa linea tendrá una pendiente, la cual puede ser calculada de la siguiente manera.\n\\[\n\\begin{aligned}\n    m &=\\fr{y_2-y_1}{x_2-x_1}\\\\\n      &=\\fr{4-(-3)}{3-(-4)}\\\\\n      &=\\fr{7}{7}\\\\\n      &=1\n\\end{aligned}\n\\]\n\\[\n\\frp{1}{2}\n\\]\n\\[\n\\lnp{2}\n\\]\n\\[\n\\dec\n\\]"
+  },
+  {
+    "objectID": "01-chapter.html#los-números-reales",
+    "href": "01-chapter.html#los-números-reales",
+    "title": "2  Introducción",
+    "section": "Los Números Reales",
+    "text": "Los Números Reales\nNúmeros enteros(Z): Los números irracionales son aquellos números que no se pueden expresar como una fracción exacta de dos números enteros.\n\\[-1,0,1…\\]\nNúmeros Racionales(Q): Los números racionales son aquellos números que se pueden expresar como una fracción exacta de dos números enteros. El numero entero de arriba se denomina numerador y el de abajo denominador.\n\\[\\frac{1\\to numerador}{2\\to Denominador}...\\]\nNúmeros irracionales: Los números irracionales son aquellos números que no se pueden expresar como una fracción exacta de dos números enteros.\n\\[\\sqrt{2}...\\]\nTodos estos son numero reales y se denotan con la letra (R) y pueden ser expresados en una recta numérica."
+  },
+  {
+    "objectID": "01-chapter.html#el-plano-cartesiano",
+    "href": "01-chapter.html#el-plano-cartesiano",
+    "title": "2  Introducción",
+    "section": "El plano cartesiano",
+    "text": "El plano cartesiano\nEl plano cartesiano está formado por dos rectas numéricas perpendiculares, una horizontal y otra vertical que se cortan en un punto. La recta horizontal es llamada eje de las abscisas o de las equis (x), y la vertical, eje de las ordenadas o de las yes, (y); el punto donde se cortan recibe el nombre de origen.\n\nEn este plano se puede trazar una linea entre dos o mas puntos. Esa linea tendrá una pendiente, la cual puede ser calculada de la siguiente manera.\n\\[\n\\begin{aligned}\n    m &=\\fr{y_2-y_1}{x_2-x_1}\\\\\n      &=\\fr{4-(-3)}{3-(-4)}\\\\\n      &=\\fr{7}{7}\\\\\n      &=1\n\\end{aligned}\n\\]\n\\[\n\\frp{1}{2}\n\\]\n\\[\n\\lnp{2}\n\\]\n\\[\n\\dec\n\\]"
+  }
+]
