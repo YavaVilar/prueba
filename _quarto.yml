@@ -1,4 +1,4 @@
-project: 
+project:
   type: book
   execute-dir: project
 
@@ -6,7 +6,7 @@ book:
   title: "Matematica 1"
   author: "Alejandro Cardiles"
   date: "today" # date options can be found here:
-  date-format: iso 
+  date-format: iso
   chapters:
     - index.qmd
     - 01-chapter.qmd
@@ -33,7 +33,7 @@ format:
     fig_caption: TRUE
     cap-location: "top"
     # latex optios
-    include-in-header: 
+    include-in-header:
      - text: |
          \usepackage{mdframed}
          \usepackage{booktabs}
@@ -44,27 +44,26 @@ format:
          \usepackage{float}
          \floatplacement{figure}{H}
 
-       
+
 #-----------#
 # html
   html:
-  
+
     title-block-banner: none
     theme: Slate
     toc: true # table of content
-    toc_float: true 
+    toc_float: true
     number-sections: true
     number-depth: 0
     # show code menu
-    code-tools:  
+    code-tools:
       source: false # don´t show sourse of wepage
       toggle: true # show source of chunk
     code-fold: true # to hide all code by defaul
 
-    
-    
+
+
 #=============#
 #      #
-#=============#    
-execute:
-  freeze: auto # only files that change will be re render
+#=============#
+# only files that change will be re render
